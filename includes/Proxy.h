@@ -4,16 +4,18 @@
 // Interfaz del sujeto
 class Sujeto {
 public:
-    // Método virtual puro para realizar una operación.
+    // Metodo virtual puro para realizar una operacion.
+    // Este mÃ©todo debe ser implementado por todas las clases derivadas
     virtual void operacion() = 0;
 };
 
-// Implementación del sujeto real
+// Implementacion del sujeto real
 class SujetoReal : public Sujeto {
 public:
-    // Implementación concreta del método de operación.
+    // Implementacion concreta del metodo de operacion.
+    // Imprime un mensaje en la consola indicando que la operaciÃ³n se estÃ¡ realizando en el sujeto real
     void operacion() override {
-        cout << "Operación en el sujeto real." << endl;
+        cout << "Operacion en el sujeto real." << endl;
     }
 };
 
@@ -21,21 +23,22 @@ public:
 class Proxy : public Sujeto {
 public:
     // Constructor del proxy
+    // Inicializa el puntero al sujeto real como nulo
     Proxy() : m_sujetoReal(nullptr) {}
 
-    // Implementación del método de operación del proxy
+    // Implementacion del metodo de operacion del proxy
+    // Si el sujeto real no ha sido creado, lo crea y luego llama a su metodo de operacion
     void operacion() override {
         // Se crea el sujeto real solo si no existe
         if (m_sujetoReal == nullptr) {
             m_sujetoReal = new SujetoReal();
         }
-        cout << "Operación en el proxy. Redirigiendo a sujeto real." << endl;
-        // Se llama al método de operación del sujeto real.
+        cout << "Operacion en el proxy. Redirigiendo a sujeto real." << endl;
+        // Se llama al metodo de operacion del sujeto real.
         m_sujetoReal->operacion();
     }
 
 private:
-    SujetoReal* m_sujetoReal; // Almacena una instancia del sujeto real.
-};
+    SujetoReal* m_sujetoReal; // Almacena una instancia del sujeto real.
 };
 

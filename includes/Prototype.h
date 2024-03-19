@@ -4,38 +4,43 @@
 // Clase base para los prototipos
 class Prototype {
 public:
-    // MÈtodo virtual para clonar el prototipo
+    // Metodo virtual puro para clonar el prototipo
+    // Este m√©todo debe ser implementado por todas las clases derivadas
     virtual Prototype* clonar() = 0;
 
-    // MÈtodo virtual para configurar el prototipo
+    // Metodo virtual puro para configurar el prototipo
+    // Este m√©todo debe ser implementado por todas las clases derivadas
     virtual void configurar(string _valor) = 0;
 
-    // MÈtodo virtual para mostrar el prototipo
+    // Metodo virtual puro para mostrar el prototipo
+    // Este m√©todo debe ser implementado por todas las clases derivadas
     virtual void mostrar() = 0;
 };
 
 // Clase concreta del prototipo
 class PrototypeConcreto : public Prototype {
 public:
-    // MÈtodo para clonar el prototipo concreto
+    // Implementaci√≥n del m√©todo para clonar el prototipo concreto
+    // Crea una copia del objeto actual y devuelve un puntero a la copia
     Prototype* clonar() override {
         PrototypeConcreto* copia = new PrototypeConcreto();
         copia->configurar(valor);
         return copia;
     }
 
-    // MÈtodo para configurar el valor del prototipo concreto
+    // Implementaci√≥n del m√©todo para configurar el valor del prototipo concreto
+    // Configura el valor del objeto actual con el valor proporcionado
     void configurar(string _valor) override {
         valor = _valor;
     }
 
-    // MÈtodo para mostrar el valor del prototipo concreto
+    // Implementaci√≥n del m√©todo para mostrar el valor del prototipo concreto
+    // Imprime el valor del objeto actual en la consola
     void mostrar() override {
         cout << "Valor: " << valor << endl;
     }
 
 private:
-    string valor; // Atributo que almacena el valor del†prototipo
-};
+    string valor; // Atributo privado que almacena el valor del prototipo
 };
 

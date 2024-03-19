@@ -4,52 +4,56 @@
 // Interfaz base para las implementaciones
 class Implementacion {
 public:
-    // M閠odo virtual puro para realizar una operaci髇.
+    // M茅todo virtual puro para realizar una operaci贸n.
+    // Este m茅todo debe ser implementado por todas las clases derivadas
     virtual void operacion() = 0;
 };
 
-// Implementacion Concreta A 
+// Implementaci贸n Concreta A 
 class ImplementacionConcretaA : public Implementacion {
 public:
-    // Implementaci髇 concreta del m閠odo de operaci髇.
+    // Implementaci贸n concreta del m茅todo de operaci贸n para la Implementaci贸n A.
     void operacion() override {
-        cout << "Operaci髇 en implementaci髇 A" << endl;
+        cout << "Operaci贸n en implementaci贸n A" << endl;
     }
 };
 
-// Implementacion Concreta B
+// Implementaci贸n Concreta B
 class ImplementacionConcretaB : public Implementacion {
 public:
-    // Implementaci髇 concreta del m閠odo de operaci髇.
+    // Implementaci贸n concreta del m茅todo de operaci贸n para la Implementaci贸n B.
     void operacion() override {
-        cout << "Operaci髇 en implementaci髇 B" << endl;
+        cout << "Operaci贸n en implementaci贸n B" << endl;
     }
 };
 
-// Clase Abstracci髇
+// Clase Abstracci贸n
 class Abstraccion {
 public:
-    // Constructor que recibe una implementaci髇.
+    // Constructor que recibe una implementaci贸n.
+    // Inicializa la implementaci贸n con la proporcionada
     Abstraccion(Implementacion* imp) : m_implementacion(imp) {}
 
-    // M閠odo virtual puro para realizar una operaci髇.
+    // M茅todo virtual puro para realizar una operaci贸n.
+    // Este m茅todo debe ser implementado por todas las clases derivadas
     virtual void operacion() = 0;
 
 protected:
+    // Puntero a la implementaci贸n
     Implementacion* m_implementacion;
 };
 
-// Abstracci髇 Refinada 
+// Abstracci贸n Refinada 
 class AbstraccionRefinada : public Abstraccion {
 public:
-    // Constructor que recibe una implementaci髇.
+    // Constructor que recibe una implementaci贸n.
+    // Inicializa la implementaci贸n con la proporcionada
     AbstraccionRefinada(Implementacion* imp) : Abstraccion(imp) {}
 
-    // Implementaci髇 del m閠odo de operaci髇.
+    // Implementaci贸n del m茅todo de operaci贸n.
+    // Llama al m茅todo de operaci贸n de la implementaci贸n.
     void operacion() override {
-        // Llama al m閠odo de operaci髇 de la implementaci髇.
         m_implementacion->operacion();
-牋牋}
-};
+    }
 };
 

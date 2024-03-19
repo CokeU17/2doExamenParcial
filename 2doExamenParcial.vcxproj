@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Adapter.h" />
+    <ClInclude Include="includes\Bridge.h" />
+    <ClInclude Include="includes\Builder.h" />
+    <ClInclude Include="includes\ChainofResponsability.h" />
+    <ClInclude Include="includes\Composite.h" />
+    <ClInclude Include="includes\Decorator.h" />
+    <ClInclude Include="includes\FactoryMethod.h" />
+    <ClInclude Include="includes\Prototype.h" />
+    <ClInclude Include="includes\Proxy.h" />
+    <ClInclude Include="includes\Singleton.h" />
+    <ClInclude Include="includes\TemplateMethod.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,20 +142,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="adapter.h" />
-    <ClInclude Include="bridge.h" />
-    <ClInclude Include="builder.h" />
-    <ClInclude Include="ChainofResponsability.h" />
-    <ClInclude Include="Composite.h" />
-    <ClInclude Include="Decorator.h" />
-    <ClInclude Include="FactoryMethod.h" />
-    <ClInclude Include="prototype.h" />
-    <ClInclude Include="proxy.h" />
-    <ClInclude Include="registroactividad.h" />
-    <ClInclude Include="singleton.h" />
-    <ClInclude Include="TemplateMethod.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,54 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\",
+  "WorkspaceRootPath": "C:\\Users\\Jorge\\Downloads\\cpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\prototype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:prototype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\TemplateMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Composite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:Composite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\registroactividad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\FactoryMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:FactoryMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\TemplateMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:TemplateMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\proxy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\prototype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\registroactividad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:registroactividad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Composite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\proxy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:proxy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\FactoryMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\ChainofResponsability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:ChainofResponsability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\ChainofResponsability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Decorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:Decorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Decorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\builder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:builder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\builder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\bridge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:bridge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\bridge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\adapter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A41DD166-7F9F-41E1-B82B-9C8FE377C1D4}|2doExamenParcial.vcxproj|solutionrelative:adapter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\adapter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,92 +46,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 283,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FactoryMethod.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\FactoryMethod.h",
-              "RelativeDocumentMoniker": "FactoryMethod.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\FactoryMethod.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\FactoryMethod.h",
-              "RelativeToolTip": "FactoryMethod.h",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwCoAAAATAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\FactoryMethod.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T02:57:57.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T02:57:57.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Composite.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Composite.h",
-              "RelativeDocumentMoniker": "Composite.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Composite.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Composite.h",
-              "RelativeToolTip": "Composite.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Composite.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T02:57:07.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T02:57:07.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "prototype.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\prototype.h",
-              "RelativeDocumentMoniker": "prototype.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\prototype.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\prototype.h",
-              "RelativeToolTip": "prototype.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\prototype.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-18T02:58:57.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T02:58:57.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "proxy.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\proxy.h",
-              "RelativeDocumentMoniker": "proxy.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\proxy.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\proxy.h",
-              "RelativeToolTip": "proxy.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\proxy.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T02:59:48.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "singleton.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\singleton.h",
-              "RelativeDocumentMoniker": "singleton.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\singleton.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\singleton.h",
-              "RelativeToolTip": "singleton.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\singleton.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T03:01:05.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "registroactividad.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\registroactividad.h",
-              "RelativeDocumentMoniker": "registroactividad.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\registroactividad.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\registroactividad.h",
-              "RelativeToolTip": "registroactividad.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\registroactividad.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T03:00:19.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TemplateMethod.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\TemplateMethod.h",
-              "RelativeDocumentMoniker": "TemplateMethod.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\TemplateMethod.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\TemplateMethod.h",
-              "RelativeToolTip": "TemplateMethod.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\TemplateMethod.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T03:00:42.359Z"
             },
@@ -152,9 +130,9 @@
               "DocumentIndex": 7,
               "Title": "ChainofResponsability.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\ChainofResponsability.h",
-              "RelativeDocumentMoniker": "ChainofResponsability.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\ChainofResponsability.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\ChainofResponsability.h",
-              "RelativeToolTip": "ChainofResponsability.h",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\ChainofResponsability.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T02:56:20.067Z"
@@ -164,9 +142,9 @@
               "DocumentIndex": 8,
               "Title": "Decorator.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Decorator.h",
-              "RelativeDocumentMoniker": "Decorator.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Decorator.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Decorator.h",
-              "RelativeToolTip": "Decorator.h",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\Decorator.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T02:57:31.131Z"
@@ -176,9 +154,9 @@
               "DocumentIndex": 9,
               "Title": "builder.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\builder.h",
-              "RelativeDocumentMoniker": "builder.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\builder.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\builder.h",
-              "RelativeToolTip": "builder.h",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\builder.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T02:55:53.536Z"
@@ -188,9 +166,9 @@
               "DocumentIndex": 10,
               "Title": "bridge.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\bridge.h",
-              "RelativeDocumentMoniker": "bridge.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\bridge.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\bridge.h",
-              "RelativeToolTip": "bridge.h",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\bridge.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T02:55:01.248Z"
@@ -200,9 +178,9 @@
               "DocumentIndex": 11,
               "Title": "adapter.h",
               "DocumentMoniker": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\adapter.h",
-              "RelativeDocumentMoniker": "adapter.h",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\adapter.h",
               "ToolTip": "C:\\Users\\Jorge\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\adapter.h",
-              "RelativeToolTip": "adapter.h",
+              "RelativeToolTip": "..\\..\\Documents\\Universidad\\Cuarto Cuatrimestre\\Programacion orientada a objetos\\2doExamenParcial\\adapter.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T02:48:53.03Z"

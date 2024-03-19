@@ -1,29 +1,29 @@
 #pragma once
 #include "Preriquisites.h"
 
-// Clase base para los componentes
+// Clase base para los componentes. Esta clase define la interfaz que deben implementar los componentes.
 class Componente {
 public:
-    // MÈtodo virtual puro para realizar una operaciÛn.
+    // Metodo virtual puro para realizar una operacion. Cada componente concreto debe implementar este m√©todo.
     virtual void operacion() = 0;
 };
 
-// Clase concreta que implementa Componente
+// Clase concreta que implementa Componente. Esta clase representa un componente espec√≠fico.
 class ComponenteConcreto : public Componente {
 public:
-    // ImplementaciÛn concreta del mÈtodo de operaciÛn.
+    // Implementacion concreta del metodo de operacion. Este m√©todo define la operaci√≥n espec√≠fica que realiza este componente.
     void operacion() override {
-        cout << "OperaciÛn del componente concreto" << endl;
+        cout << "Operacion del componente concreto" << endl;
     }
 };
 
-// Clase base para los decoradores
+// Clase base para los decoradores. Esta clase define la interfaz que deben implementar los decoradores.
 class Decorator : public Componente {
 public:
-    // Constructor que recibe un componente para decorar.
+    // Constructor que recibe un componente para decorar. El decorador a√±ade funcionalidad al componente sin cambiar su interfaz.
     Decorator(Componente* componente) : m_componente(componente) {}
 
-    // ImplementaciÛn del mÈtodo de operaciÛn que delega al componente original.
+    // Implementacion del metodo de operacion que delega al componente original. Esto permite que el decorador ejecute la operaci√≥n como si fuera el componente real, manteniendo la misma interfaz y comportamiento esperado.
     void operacion() override {
         m_componente->operacion();
     }
@@ -32,30 +32,28 @@ private:
     Componente* m_componente; // Almacena una instancia del componente a decorar.
 };
 
-// Decorador concreto A
+// Decorador concreto A. Esta clase a√±ade funcionalidad adicional al componente que decora.
 class DecoratorConcretoA : public Decorator {
 public:
-    // Constructor que recibe un componente para decorar.
+    // Constructor que recibe un componente para decorar como variable.
     DecoratorConcretoA(Componente* componente) : Decorator(componente) {}
 
-    // ImplementaciÛn adicional del mÈtodo de operaciÛn.
+    // Implementacion adicional del metodo de operacion. Este m√©todo a√±ade funcionalidad adicional a la operaci√≥n del componente que decora.
     void operacion() override {
-        Decorator::operacion(); // Llama al mÈtodo del componente original.
-        cout << "OperaciÛn del Decorator A." << endl;
+        Decorator::operacion(); // Llama al metodo del componente original.
+        cout << "Operacion del Decorator A." << endl;
     }
 };
 
-// Otro decorador concreto B
+// Otro decorador concreto B. Esta clase tambi√©n a√±ade funcionalidad adicional al componente que decora.
 class DecoratorConcretoB : public Decorator {
 public:
     // Constructor que recibe un componente para decorar.
     DecoratorConcretoB(Componente* componente) : Decorator(componente) {}
 
-    // ImplementaciÛn adicional del mÈtodo de operaciÛn.
+    // Implementacion adicional del metodo de operacion. Este m√©todo a√±ade funcionalidad adicional a la operaci√≥n del componente que decora.
     void operacion() override {
-        Decorator::operacion(); // Llama al mÈtodo del componente original.
-        cout << "OperaciÛn del Decorator B." <<†endl;
-††††}
+        Decorator::operacion(); // Llama al metodo del componente original.
+        cout << "Operacion del Decorator B." << endl;
+    }
 };
-};
-

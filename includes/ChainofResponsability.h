@@ -1,31 +1,31 @@
 #pragma once
 #include "Preriquisites.h"
 
-// Clase base del manejador (Handler)
+// Clase base del manejador (Handler). Esta clase define la interfaz que deben implementar los manejadores.
 class Manejador {
 public:
-    // Constructor que recibe el siguiente manejador en la cadena
+    // Constructor que recibe el siguiente manejador en la cadena. Este constructor permite establecer el siguiente manejador en la cadena de responsabilidad.
     Manejador(Manejador* siguiente) : m_siguienteManejador(siguiente) {}
 
-    // M閠odo virtual para manejar solicitudes
+    // M茅todo virtual para manejar solicitudes. Cada manejador concreto debe implementar este m茅todo.
     virtual void manejarSolicitud(int solicitud) {
-        // Si hay un siguiente manejador, pasa la solicitud a 閘
+        // Si hay un siguiente manejador, pasa la solicitud a 茅l
         if (m_siguienteManejador != nullptr) {
             m_siguienteManejador->manejarSolicitud(solicitud);
         }
     }
 
 private:
-    Manejador* m_siguienteManejador;
+    Manejador* m_siguienteManejador; // Almacena el siguiente manejador en la cadena de responsabilidad.
 };
 
-// Manejador Concreto A 
+// Manejador Concreto A. Esta clase representa un manejador concreto en la cadena de responsabilidad.
 class ManejadorConcretoA : public Manejador {
 public:
-    // Constructor que recibe el siguiente manejador en la cadena
+    // Constructor que recibe el siguiente manejador en la cadena. Este constructor permite establecer el siguiente manejador en la cadena de responsabilidad.
     ManejadorConcretoA(Manejador* siguiente) : Manejador(siguiente) {}
 
-    // Implementaci髇 espec韋ica para el Manejador A
+    // Implementaci贸n espec铆fica para el Manejador A. Este m茅todo define c贸mo este manejador concreto maneja las solicitudes.
     void manejarSolicitud(int solicitud) override {
         // Maneja solicitudes si el valor es menor o igual a 10
         if (solicitud <= 10) {
@@ -38,13 +38,13 @@ public:
     }
 };
 
-// Manejador Concreto B 
+// Manejador Concreto B. Esta clase representa otro manejador concreto en la cadena de responsabilidad.
 class ManejadorConcretoB : public Manejador {
 public:
-    // Constructor que recibe el siguiente manejador en la cadena
+    // Constructor que recibe el siguiente manejador en la cadena. Este constructor permite establecer el siguiente manejador en la cadena de responsabilidad.
     ManejadorConcretoB(Manejador* siguiente) : Manejador(siguiente) {}
 
-    // Implementaci髇 espec韋ica para el Manejador B
+    // Implementaci贸n espec铆fica para el Manejador B. Este m茅todo define c贸mo este manejador concreto maneja las solicitudes.
     void manejarSolicitud(int solicitud) override {
         // Maneja solicitudes en el rango de 11 a 20
         if (solicitud <= 20) {
@@ -57,17 +57,16 @@ public:
     }
 };
 
-// Manejador Concreto C
+// Manejador Concreto C. Esta clase representa otro manejador concreto en la cadena de responsabilidad.
 class ManejadorConcretoC : public Manejador {
 public:
-    // Constructor que recibe el siguiente manejador en la cadena
+    // Constructor que recibe el siguiente manejador en la cadena. Este constructor permite establecer el siguiente manejador en la cadena de responsabilidad.
     ManejadorConcretoC(Manejador* siguiente) : Manejador(siguiente) {}
 
-    // Implementaci髇 espec韋ica para el Manejador C
+    // Implementaci贸n espec铆fica para el Manejador C. Este m茅todo define c贸mo este manejador concreto maneja las solicitudes.
     void manejarSolicitud(int solicitud) override {
         // Maneja la solicitud sin verificar el valor
         cout << "Manejador C ejecuta la solicitud." << endl;
     }
-};
 };
 

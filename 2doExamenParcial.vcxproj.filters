@@ -15,41 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="adapter.h">
+    <ClInclude Include="includes\Adapter.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="bridge.h">
+    <ClInclude Include="includes\Bridge.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="builder.h">
+    <ClInclude Include="includes\Builder.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="ChainofResponsability.h">
+    <ClInclude Include="includes\ChainofResponsability.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Composite.h">
+    <ClInclude Include="includes\Composite.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Decorator.h">
+    <ClInclude Include="includes\Decorator.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="FactoryMethod.h">
+    <ClInclude Include="includes\FactoryMethod.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="prototype.h">
+    <ClInclude Include="includes\Prototype.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="proxy.h">
+    <ClInclude Include="includes\Proxy.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="registroactividad.h">
+    <ClInclude Include="includes\Singleton.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="TemplateMethod.h">
+    <ClInclude Include="includes\TemplateMethod.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="singleton.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,25 +1,27 @@
 #pragma once
 #include "Preriquisites.h"
+#include <vector>
 
-// Componente Base
+// Clase base de Componente. Esta clase define la interfaz que deben implementar las hojas y nodos compuestos.
 class CComponent {
 public:
-    // Operaci髇 virtual a ser implementada por las hojas y nodos compuestos
+    // M茅todo virtual puro para realizar una operaci贸n. Cada hoja y nodo compuesto debe implementar este m茅todo.
     virtual void operacion() = 0;
 };
 
-// Hoja (Leaf)
+// Clase Hoja (Leaf). Esta clase representa una hoja en la estructura del 谩rbol.
 class Leaf : public CComponent {
 public:
+    // Implementaci贸n concreta del m茅todo de operaci贸n. Este m茅todo define la operaci贸n espec铆fica que realiza esta hoja.
     void operacion() override {
         cout << "Operacion en la hoja." << endl;
     }
 };
 
-// Nodo Compuesto
+// Clase Nodo Compuesto. Esta clase representa un nodo compuesto en la estructura del 谩rbol.
 class Compuesto : public CComponent {
 public:
-    // Implementaci髇 de la operaci髇 que realiza la operaci髇 en todas las hojas
+    // Implementaci贸n del m茅todo de operaci贸n que realiza la operaci贸n en todas las hojas. Este m茅todo define c贸mo se realiza la operaci贸n en este nodo compuesto.
     void operacion() override {
         cout << "Operacion en el compuesto. Contiene " << Leafs.size() << " hojas." << endl;
         for (CComponent* Leaf : Leafs) {
@@ -27,13 +29,12 @@ public:
         }
     }
 
-    // M閠odo para agregar una hoja al nodo compuesto
+    // M茅todo para agregar una hoja al nodo compuesto. Este m茅todo permite agregar nuevas hojas a este nodo compuesto.
     void agregarLeaf(CComponent* _Leaf) {
         Leafs.push_back(_Leaf);
     }
 
 private:
-    vector<CComponent*>燣eafs;
-};
+    vector<CComponent*> Leafs; // Almacena las hojas que pertenecen a este nodo compuesto.
 };
 

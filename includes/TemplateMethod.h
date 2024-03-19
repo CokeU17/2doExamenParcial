@@ -1,10 +1,12 @@
 #pragma once
 #include "Preriquisites.h"
 
-// Clase base Juego que define el esqueleto de un juego.
+// Clase Juego que define el esqueleto de un juego.
+// Esta es una clase abstracta que define los m√©todos comunes a todos los juegos.
 class Juego {
 public:
-    // MÈtodo principal que define el flujo general del juego.
+    // Metodo principal que define el flujo general del juego.
+    // Este m√©todo llama a los m√©todos inicializar, comenzarJuego y terminarJuego en ese orden.
     void jugar() {
         inicializar();
         comenzarJuego();
@@ -12,34 +14,40 @@ public:
     }
 
 protected:
-    // MÈtodo inicializar, proporciona una implementaciÛn predeterminada.
+    // Metodo inicializar, proporciona una implementacion predeterminada.
+    // Este m√©todo se llama al principio del juego.
     virtual void inicializar() {
         cout << "Iniciando Juego." << endl;
     }
 
-    // MÈtodo puro comenzarJuego, debe ser implementado por las subclases.
+    // Metodo comenzarJuego, implementado por las subclases.
+    // Este m√©todo es abstracto y debe ser implementado por las clases derivadas.
     virtual void comenzarJuego() = 0;
 
-    // MÈtodo terminarJuego, proporciona una implementaciÛn predeterminada.
+    // Metodo terminarJuego, proporciona una implementacion predeterminada.
+    // Este m√©todo se llama al final del juego.
     virtual void terminarJuego() {
         cout << "Terminando el Juego." << endl;
     }
 };
 
-// Subclase Ajedrez que implementa el mÈtodo comenzarJuego especÌficamente para el ajedrez.
+// Subclase Ajedrez que implementa el metodo comenzarJuego especificamente para el ajedrez.
+// Esta clase hereda de la clase Juego y proporciona una implementaci√≥n espec√≠fica del m√©todo comenzarJuego.
 class Ajedrez : public Juego {
 protected:
+    // Implementaci√≥n del m√©todo comenzarJuego para el juego de Ajedrez.
     void comenzarJuego() override {
         cout << "Comenzar Partida de Ajedrez." << endl;
     }
 };
 
-// Subclase Monopoly que implementa el mÈtodo comenzarJuego especÌficamente para el Monopoly.
+// Subclase Monopoly que implementa el metodo comenzarJuego especificamente para el Monopoly.
+// Esta clase hereda de la clase Juego y proporciona una implementaci√≥n espec√≠fica del m√©todo comenzarJuego.
 class Monopoly : public Juego {
 protected:
+    // Implementaci√≥n del m√©todo comenzarJuego para el juego de Monopoly.
     void comenzarJuego() override {
-        cout << "Comenzar partida Monopoly." <<†endl;
-††††}
-};
+        cout << "Comenzar partida Monopoly." << endl;
+    }
 };
 
